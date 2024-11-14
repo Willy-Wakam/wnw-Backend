@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use('/uploads', express.static(__dirname + '/uploads'));
 app.use(cors({
     credentials: true,
-    origin: 'https://vercel.com/willys-projects-eee5ca08/wnw-app/97WVa9ThSMuxTvW1Fm25o8GzZUQp',
+    origin: 'https://wnw-app.vercel.app/',
     allowOrigin: true,
 }));
 
