@@ -23,7 +23,6 @@ app.use('/uploads', express.static(__dirname + '/uploads'));
 app.use(cors({
     credentials: true,
     origin: 'https://wnw-app.vercel.app/',
-    allowedHeaders: ['Access-Control-Allow-Origin'],
     allowOrigin: true,
 }));
 
