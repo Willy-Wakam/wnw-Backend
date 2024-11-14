@@ -29,6 +29,10 @@ app.use(cors({
 
 mongoose.connect(process.env.MONGO_URL);
 
+app.get('/', (req, res) => {
+    res.json('Backend is running!')
+})
+
 
 app.post('/register', async (req, res) => {
 
